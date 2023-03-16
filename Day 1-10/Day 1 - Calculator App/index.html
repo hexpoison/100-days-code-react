@@ -14,30 +14,38 @@
 <body>
   <main>
     <h3 class="title">Calculator App</h3>
-    <div class="operations">
-      <div class="btn-grp">
-        <button>+</button>
-        <button>-</button>
-        <button>x</button>
-        <button>/</button>
+    <form>
+      <div class="output">
+        <input type="text" name="output" value="0">
       </div>
-      <div class="nums">
-        <button>0</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>C</button>
-        <button>=</button>
+      <div class="operations">
+        <div class="btn-grp">
+          <input type="button" value="+" />
+          <input type="button" value="-" />
+          <input type="button" value="x" />
+          <input type="button" value="/" />
+        </div>
+        <div class="nums">
+          <input type="button" value="1" onclick="output.value += '1'" />
+          <input type="button" value="2" onclick="output.value += '2'" />
+          <input type="button" value="3" onclick="output.value +='3'" />
+          <input type="button" value="4" onclick="output.value +='4'" />
+        </div>
+        <div class="nums">
+          <input type="button" value="5" />
+          <input type="button" value="6" />
+          <input type="button" value="7" />
+          <input type="button" value="8" />
+        </div>
+        <div class="nums">
+          <input type="button" value="9" />
+          <input type="button" value="00" />
+          <input type="button" value="AC" onclick="output.value = 0"/>
+          <input type="button" value="=" />
+        </div>
       </div>
-      <div class="output">Test</div>
-    </div>
-    </div>
+      </div>
+    </form>
   </main>
 </body>
 
