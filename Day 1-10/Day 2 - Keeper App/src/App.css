@@ -1,0 +1,46 @@
+  @import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'McLaren', cursive;
+}
+/* Header Section */
+header{
+  background-color: #FBBC05;
+  color: white;
+  height: 9%;
+  width: 100%;
+  padding-top: 1rem;
+}
+header h1{
+  padding: 5px;
+    font-size: 25px;
+}
+/* Body Section */
+.wrapper{
+  height: 80vh;
+  width: 100wh;
+  background-color: #eee;
+  display: flex;
+}
+.card{
+  height: 100px;
+  margin: 15px;
+  background-color: #fefefe;
+  width: 20%;
+  padding: 6px;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px #777;
+  border-radius: 10px;
+}
+.card h1{font-size: 20px;}
+.card p{font-size: 14px;}
+/* Footer Section */
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+}
