@@ -4,7 +4,10 @@ This repo tracks my progress and projects for the 100 Days of JavaScript Code ch
 ## What I learnt from this challenge so far?
 ### Day 1
 - useState, array passing, handler
+- https://scintillating-froyo-6b432c.netlify.app/
 ### Day 2
 - basic design
+- https://exquisite-duckanoo-c78a9f.netlify.app/
 ### Day 3
 - props, little about json but left to implement
+- https://inquisitive-bombolone-5c2658.netlify.app/
