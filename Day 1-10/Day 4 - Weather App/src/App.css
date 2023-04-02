@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{background-color: #111;}
+
+.panel{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  margin: 15vh auto;
+  background-color: #1c1c1c;
+  border-radius: 18px;
+}
+
+.wrapper{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-box input{
+  width: 300px;
+  padding: 6px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+}
+
+/* Card and top-card props */
+.card, .top-card{
+  background-color: #222;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 7px;
+  color: white;
+}
+
+/* Centering the classes */
+.panel, .wrapper, .image-card, .top-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* updating top-card's width */
+.top-card{
+  width: 300px;
+  height: 250px;
+}
+
+.future-cards{
+  display: flex;
+  flex-direction: row;
+}
+
+h4{
+  font-size: 15px;
+}
